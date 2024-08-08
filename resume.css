@@ -1,0 +1,63 @@
+/* General Reset */
+* {
+    margin: 5;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Container */
+.resume-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.01);
+}
+
+/* Header */
+.header {
+    text-align: center;
+    margin-bottom: 0px;
+    line-height: 5px;
+}
+
+/* Main Content */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+/* Columns */
+.left-column,
+.right-column {
+    flex: 1;
+}
+
+/* About Me, Education, Skills, Projects */
+section {
+    margin-bottom: 10px;
+}
+
+/* Section Headers */
+h3 {
+    color: grey;
+    margin-bottom: 0px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 2px;
+}
+
+/* Lists in Skills Section */
+.skills ul li {
+    margin-bottom: 2px;
+}
+
+/* Responsive Design
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+    }
+} */
+
